@@ -1,0 +1,27 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "My daily programming puzzles at Advent of Code 2023 👨🏻‍💻",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleybertipaglia/adventofcode.git"
+  },
+  "keywords": [
+    "algorithms",
+    "data",
+    "structures",
+    "code",
+    "programming",
+    "challenges"
+  ],
+  "author": "Wesley Bertipaglia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesleybertipaglia/adventofcode/issues"
+  },
+  "homepage": "https://github.com/wesleybertipaglia/adventofcode#readme"
+}
