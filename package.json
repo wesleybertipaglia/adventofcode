@@ -1,10 +1,10 @@
 {
   "name": "adventofcode",
   "version": "1.0.0",
-  "description": "My daily programming puzzles at Advent of Code 2023 👨🏻‍💻",
+  "description": "My daily programming puzzles at Advent of Code 👨🏻‍💻",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/wesleybertipaglia/adventofcode/issues"
   },
-  "homepage": "https://github.com/wesleybertipaglia/adventofcode#readme"
+  "homepage": "https://github.com/wesleybertipaglia/adventofcode#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

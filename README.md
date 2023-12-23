@@ -1,2 +1,3 @@
 # adventofcode
-My daily programming puzzles at Advent of Code 2023 👨🏻‍💻
+
+Merry Christmas everyone, this repository represents my daily programming puzzles at Advent of Code 👨🏻‍💻
