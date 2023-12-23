@@ -13,8 +13,8 @@ function partOne(input) {
         let totalOfCalibrationValues = 0;
 
         // log file
-        const Log = new Log("log-part-1.json");
-        Log.Clear();
+        const LogPartOne = new Log("./logs/log-part-1.json");
+        LogPartOne.Clear();
         let fileContent = [];
 
         input.forEach(line => {
@@ -26,7 +26,7 @@ function partOne(input) {
             fileContent.push(result);
         });
 
-        Log.Append(JSON.stringify(fileContent)); // log file output
+        LogPartOne.Append(JSON.stringify(fileContent)); // log file output
 
         console.log("Total of calibration values: ", totalOfCalibrationValues);
         return totalOfCalibrationValues;
@@ -40,8 +40,8 @@ function partTwo(input) {
         let totalOfCalibrationValues = 0;
 
         // log file
-        const Log = new Log("log-part-2.json");
-        Log.Clear();
+        const LogPartTwo = new Log("./logs/log-part-2.json");
+        LogPartTwo.Clear();
         let fileContent = [];
 
         input.forEach(line => {
@@ -60,7 +60,7 @@ function partTwo(input) {
             fileContent.push(result);
         });
 
-        Log.Append(JSON.stringify(fileContent)); // log file output
+        LogPartTwo.Append(JSON.stringify(fileContent)); // log file output
 
         function getTextNums(num) {
             const textNumbers = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
