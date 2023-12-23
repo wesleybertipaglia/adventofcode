@@ -6,28 +6,28 @@ class Log {
     }
 
     Append(content) {
-        this.fs.appendFile(this.fileName, content, (err) => {
-            if (err) {
-                console.error(err);
-                return;
-            }
-            console.log(`File ${this.fileName} written successfully`);
-        });
+        try {
+            this.fs.appendFile(this.fileName, content, (err) => {
+                if (!err) console.log(`File ${this.fileName} appended successfully`);
+            });
+        } catch (error) {
+            console.error("Error: ", error);
+        }
     }
 
     Write(content) {
-        const pathToFile = this.path.dirname(this.fileName);
-        if (!this.fs.existsSync(pathToFile)) {
-            this.fs.mkdirSync(pathToFile);
-        }
-
-        this.fs.writeFile(this.fileName, content, (err) => {
-            if (err) {
-                console.error(err);
-                return;
+        try {
+            const pathToFile = this.path.dirname(this.fileName);
+            if (!this.fs.existsSync(pathToFile)) {
+                this.fs.mkdirSync(pathToFile);
             }
-            console.log('File cleared successfully');
-        });
+
+            this.fs.writeFile(this.fileName, content, (err) => {
+                if (!err) console.log(`File ${this.fileName} written successfully`);
+            });
+        } catch (error) {
+            console.error("Error: ", error);
+        }
     }
 
     Clear() {
