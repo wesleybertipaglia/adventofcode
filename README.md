@@ -38,3 +38,14 @@ The solutions are organized by year and day. Each day's folder contains the solu
 |   |-- /day-01
 |   |   |-- ...
 |   ...
+```
+
+## Contributing
+If you'd like to contribute or provide alternative solutions, you're more than welcome! Here are some ways to contribute:
+
+Add Solutions: If you have solutions in a language not yet covered, feel free to add them.
+Optimizations: If you have optimized solutions or alternative approaches, share them in the respective folders.
+Bug Fixes: If you find any issues with existing solutions, open an issue or submit a pull request.
+Please follow the guidelines outlined in the CONTRIBUTING.md file.
+
+Happy coding and Advent of Code solving!
