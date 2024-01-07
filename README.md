@@ -1,6 +1,6 @@
 # Events Repository
 
-This repository serves as a centralized hub for various templates designed specifically for hackathons, competitions, and other tech events. Whether you're organizing an event or participating in one, these templates will help you streamline the documentation process and ensure that important information is effectively communicated.
+This repository serves as a centralized hub of events that i have participated, like hackathons, competitions, and other tech events.
 
 ### 📃 Features:
 
@@ -12,9 +12,7 @@ This repository serves as a centralized hub for various templates designed speci
 
 ## 🤖 Getting Started
 
-If you want to use or colaborate with this project, you can [clone this repository](#clone-this-repository).
-
-#### Clone this Repository
+If you want to use or colaborate with this project, you can clone this repository:
 
 Clone this repository to get started.
 
