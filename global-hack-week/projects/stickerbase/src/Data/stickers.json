@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Sticker 1",
+        "description": "Description for Sticker 1",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/assets/hex-sticker.webp"
+    },
+    {
+        "id": 2,
+        "title": "Sticker 2",
+        "description": "Description for Sticker 2",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/assets/hex-sticker.webp"
+    },
+    {
+        "id": 3,
+        "title": "Sticker 3",
+        "description": "Description for Sticker 3",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/Assets/hex-sticker.webp"
+    },
+    {
+        "id": 4,
+        "title": "Sticker 4",
+        "description": "Description for Sticker 4",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/assets/hex-sticker.webp"
+    },
+    {
+        "id": 5,
+        "title": "Sticker 5",
+        "description": "Description for Sticker 5",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/assets/hex-sticker.webp"
+    },
+    {
+        "id": 6,
+        "title": "Sticker 6",
+        "description": "Description for Sticker 6",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/assets/hex-sticker.webp"
+    },
+    {
+        "id": 7,
+        "title": "Sticker 7",
+        "description": "Description for Sticker 7",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/assets/hex-sticker.webp"
+    },
+    {
+        "id": 8,
+        "title": "Sticker 8",
+        "description": "Description for Sticker 8",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/assets/hex-sticker.webp"
+    },
+    {
+        "id": 9,
+        "title": "Sticker 9",
+        "description": "Description for Sticker 9",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/assets/hex-sticker.webp"
+    },
+    {
+        "id": 10,
+        "title": "Sticker 10",
+        "description": "Description for Sticker 10",
+        "event": "Global Hack Week",
+        "year": 2022,
+        "image": "/assets/hex-sticker.webp"
+    }
+]
