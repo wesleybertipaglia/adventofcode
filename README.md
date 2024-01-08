@@ -12,9 +12,7 @@ This repository serves as a centralized hub of events that i have participated, 
 
 ## 🤖 Getting Started
 
-If you want to use or colaborate with this project, you can clone this repository:
-
-Clone this repository to get started.
+If you want to use or colaborate with this project, you can clone this repository to get started:
 
 ```bash
 git clone https://github.com/wesleybertipaglia/events
