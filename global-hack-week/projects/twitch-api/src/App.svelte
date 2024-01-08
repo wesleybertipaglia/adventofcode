@@ -26,6 +26,9 @@
 
 <main>
   <div class="card">
+    <figure>
+      <img src="./twitch.svg" alt="Twitch logo" class="logo" />
+    </figure>
     <h1>Twitch API</h1>
     <form class="channel-form" on:submit|preventDefault={fetchRewards}>
       <div class="form-group">

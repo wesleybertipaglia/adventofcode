@@ -114,6 +114,16 @@ button:focus-visible {
   width: 100%;
 }
 
+figure {
+  margin: 0;
+
+  .logo {
+    width: 100%;
+    max-width: 5rem;
+    margin: 0 auto;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
